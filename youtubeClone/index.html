@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- navbar -->
+        <nav id="navbar">
+            <!-- <input type="text" placeholder="Search" id="searchEl">
+            <button onclick="getYouTubeData()">Search</button> -->
+            <div class="nav_container">
+                <!-- Left div - logo section -->
+                <div class="left_box">
+                    <!-- Three dots Extension -->
+                    <div class="extension">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <!-- Logo Div -->
+                    <div class="logo_container">
+                        <img src="images/logo.png" alt="logo" id="youtubeLogo">
+                    </div>
+                </div>
+
+                <!-- Search Box Section -->
+                <div class="search_box_container">
+                    <!-- search box -->
+                    <div class="search_box">
+                        <input type="text" placeholder="Search" id="searchEl">
+                        <button id="search_btn" onclick="getYouTubeData()"><img src="images/search.png" alt="search_logo" id="searchLogo"></button>
+                        
+                    </div>
+                </div>
+
+                <!-- Right Div Box -->
+                <div class="right_box">
+
+                    <div class="user_options">
+                        <img src="images/video.png" alt="videologo">
+                    </div>
+
+                    <div class="user_options">
+                        <img src="images/grid.PNG" alt="gridLogo">
+                    </div>
+
+                    <div class="user_options">
+                        <img src="images/bell.png" alt="bellLogo">
+                    </div>
+
+                    <div class="user_options" id="profile_div">
+                        <img src="images/profile-pic.jpg" alt="profile_pic" id="profile_pic">
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- side bar -->
+        <aside id="left_bar">
+            <a href="#" class="active"> <img src="images/home.PNG" alt="logo" > Home</a>
+            <a href="#"> <img src="images/explore.png" alt="logo"> Explore</a>
+            <a href="#"> <img src="images/subscription.png" alt="logo"> Subscriptions</a>
+            <hr>
+            <a href="#"> <img src="images/library.png" alt="logo"> Library</a>
+            <a href="#"> <img src="images/history.PNG" alt="logo"> History</a>
+            <a href="#"> <img src="images/your-video.png" alt="logo"> Your Videos</a>
+            <a href="#"> <img src="images/your movie.png" alt="logo" id="yourMovie"> Your Movies</a>
+            <a href="#"> <img src="images/watch-later.png" alt="logo"> Watch later</a>
+            <a href="#"> <img src="images/show more.png" alt="logo"> Show more</a>
+        </aside>
+
+        <!-- Video Container -->
+        <div class="searchResult">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
